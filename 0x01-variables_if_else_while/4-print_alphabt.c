@@ -11,9 +11,10 @@ int main(void)
 	{
 		if (ch != 'e' && ch != 'q')
 		{
-			printf("%c\n", ch);
+			printf("%c", ch);
 		}
 	}
+	putchar('\n');
 	return (0);
 }
 
