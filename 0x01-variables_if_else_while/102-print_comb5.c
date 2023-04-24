@@ -14,19 +14,19 @@ int main(void)
 	{
 		for (b = 0; b < 10; b++)
 		{
-			putchar(a + '0');
-			putchar(b + '0');
 			for (c = 0; c < 10; c++)
 			{
 				for (d = 0; d < 10; d++)
 				{
-					putchar(c + '0');
-					putchar(d + '0');
+					putchar(a + '0');
+					putchar(b + '0');
 					if ((a + b) < (c + d) && a + b < 17)
 					{
 						putchar(',');
 						putchar(' ');
 					}
+					putchar(c + '0');
+					putchar(d + '0');
 				}
 			}
 		}
