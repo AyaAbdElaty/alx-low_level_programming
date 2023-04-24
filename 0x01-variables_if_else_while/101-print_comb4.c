@@ -15,7 +15,7 @@ int main(void)
 		{
 			for (c = 0; c < 10; c++)
 			{
-				if (a != b && a != c && b != c && b != a && c != a && c != b && a < b && b <c)
+				if (a < b && b < c)
 				{
 					putchar(a + '0');
 					putchar(b + '0');
