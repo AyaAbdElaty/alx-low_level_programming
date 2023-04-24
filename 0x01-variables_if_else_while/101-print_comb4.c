@@ -15,19 +15,17 @@ int main(void)
 		{
 			for (c = 0; c < 10; c++)
 			{
-				if (a != b && a != c && b != c && b != a && c != a && c != b)
+				if (a != b && a != c && b != c && b != a && c != a && c != b && a < b && b <c)
 				{
-					if (a < b && b < c)
+					putchar(a + '0');
+					putchar(b + '0');
+					putchar(c + '0');
+					if ((a + b + c) < 24)
 					{
-						putchar(a + '0');
-						putchar(b + '0');
-						putchar(c + '0');
-						if ((a + b + c) < 24)
-						{
-							putchar(',');
-							putchar(' ');
-						}
+						putchar(',');
+						putchar(' ');
 					}
+				
 				}
 			}
 		}
