@@ -7,8 +7,7 @@
 
 void print_line(int n)
 {
-
-	_putchar(45 * n);
+	_putchar(45 * n + '0');
 	-putchar('\n');
 	if (n == 0)
 	{
