@@ -10,5 +10,8 @@
 
 int _putchar(int c)
 {
-	return(write(1, &c, 1));
+	if (putchar(c) == EOF)
+		return (EOF);
+	else
+		return (c);
 }
