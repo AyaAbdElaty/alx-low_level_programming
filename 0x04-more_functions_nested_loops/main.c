@@ -8,7 +8,6 @@
  */
 int main(void)
 {
-	char c;
-	putchar(c);
-	return (0);
+	
+	mul(2, 4);
 }
