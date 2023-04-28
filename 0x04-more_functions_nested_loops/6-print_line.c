@@ -4,7 +4,6 @@
  *
  * @n : is the function parameter
  */
-
 void print_line(int n)
 {
 	if (n <= 0)
@@ -15,7 +14,7 @@ void print_line(int n)
 
 		for (m = 0; m <= n; m++)
 		{
-			_putchar('-');
+			_putchar('_');
 		}
 		_putchar('\n');
 	}
