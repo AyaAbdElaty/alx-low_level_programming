@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * print_line - is to draw a line
  *
@@ -14,7 +15,7 @@ void print_line(int n)
 
 		for (m = 0; m <= n; m++)
 		{
-			_putchar('_');
+			_putchar(95);
 		}
 		_putchar('\n');
 	}
