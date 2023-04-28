@@ -11,7 +11,7 @@ void print_line(int n)
 
 	while (m < n + 1)
 	{
-		_putchar(45 + '0');
+		_putchar(45 * n);
 		m++;
 		if (n == 0)
 		{
