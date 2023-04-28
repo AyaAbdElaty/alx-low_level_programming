@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <unistd.h>
 /**
  * _putchar - is the name of the function
  *
@@ -10,12 +10,5 @@
 
 int _putchar(int c)
 {
-	if (putchar(c) == EOF)
-	{
-		return (EOF);
-	}
-	else
-	{
-		return (c);
-	}
+	return(write(1, &c, 1));
 }
