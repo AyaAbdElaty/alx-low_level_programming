@@ -1,8 +1,8 @@
-#ifndef MYHEADERFILE_H
-#define MYHEADERFILE_H
+#ifndef MAIN_H
+#define MAIN_H
 /*this code is for checking if the character is uppercase or lowercase
  */
-#include <stdio.h>
+
 
 
 int _putchar(int c);
