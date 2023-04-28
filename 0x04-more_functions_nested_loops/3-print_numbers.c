@@ -13,7 +13,7 @@ void print_numbers(void)
 
 	for (a = 0; a < 10 ; a++)
 	{
-		_putchar(a);
+		-putchar(a);
 	}
 	-putchar('\n' + 48);
 }
