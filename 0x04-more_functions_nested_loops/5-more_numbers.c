@@ -3,7 +3,6 @@
  * more_numbers - is the name of the function
  *
  * @void: is the parametar of the function
- * Description: the function is to print numbers from zero to forteen times 
  */
 
 void more_numbers(void)
@@ -19,5 +18,4 @@ void more_numbers(void)
 		}
 		_putchar('/n');
 	}
-	_putchar(i);
 }
