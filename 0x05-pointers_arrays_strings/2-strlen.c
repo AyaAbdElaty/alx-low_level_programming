@@ -1,7 +1,7 @@
 #include "main.h"
  /**
-  * _isupper - is the name of the function
-  * @s: is the parametar of the function
+  * _strlen` - is the name of the function
+  *  @s: is the parametar of the function
   * Description: the function is know the length of the character
   */
 
