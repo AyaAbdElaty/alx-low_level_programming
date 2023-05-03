@@ -1,11 +1,15 @@
-#insert "PandAHeaders"
+#include "main.h"
+
  /** _isupper - is the name of the function
   *
-  * @c: is the parametar of the function
-  * Description: the function is to check case sensitve of a character
-  * Return: is used to return zero or one based on case sensitive
+  * @s: is the parametar of the function
+  * Description: the function is know the length of the character
   */
 
 int _strlen(char *s)
 {
-
+	int n;
+	
+	for (n=0; *(s + n) != '\0'; n++);
+	return (n);
+}
