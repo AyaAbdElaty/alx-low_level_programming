@@ -8,6 +8,7 @@
 void _puts(char *str)
 {
 	int i;
+	i = 0;
 
 	while (*str != '\0')
 	{
@@ -15,7 +16,6 @@ void _puts(char *str)
 		++i;
 		++str;
 	}
-	_putchar('n');
+	_putchar('\n');
 	++i;
-	return i;
 }
