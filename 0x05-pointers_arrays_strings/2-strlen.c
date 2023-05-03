@@ -6,7 +6,6 @@
   * description: the function is know the length of the character
   * return: length of string
   */
-
 int _strlen(char *s)
 {
 	int n = 0;
