@@ -11,9 +11,9 @@ void print_array(int *a, int n)
 {
 	int i;
 
-	for (i = 0; a[n] != '\0'; i++)
-	{
-		printf("a[%d] = %i\n", n, a[n]);
+	for (i = 0; i <= n ; i++)
+	{ 
+		printf("a[%d] = %i\n", i, a[i]);
 	}
 
 }
