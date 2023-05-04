@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * *_strcpy- is the name of the function
+ * _strcpy- is the name of the function
  *
  * @dest: is the argument of the function
- * src: is the argument of the function
+ * @src: is the argument of the function
  * return: return
  */
 char *_strcpy(char *dest, char *src)
@@ -13,7 +13,7 @@ char *_strcpy(char *dest, char *src)
 	do {
 		i++;
 		dest[i] = src[i];
-	} while (src [i] != '\0');
+	} while (src[i] != '\0');
 
 	return (dest);
 }
