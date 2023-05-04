@@ -1,11 +1,11 @@
 #include "main.h"
- /**
-  * _strlen - is to find the lenth of a string
-  *
-  * @s: is the parametar of the function
-  * description: the function is know the length of the character
-  * return: length of string
-  */
+/**
+ * _strlen - is to find the lenth of a string
+ *
+ * @s: is the parametar of the function
+ * Description: the function is know the length of the character
+ * Return: length of string
+ */
 int _strlen(char *s)
 {
 	int n = 0;
