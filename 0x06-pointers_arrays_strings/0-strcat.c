@@ -4,7 +4,7 @@
  *
  * @dest: is the function parameter
  * @src: is the function parameter
- * description: function to concatinate
+ * Description: function to concatinate
  * Return: is returning dest
  */
 char *_strcat(char *dest, char *src)
@@ -13,8 +13,9 @@ char *_strcat(char *dest, char *src)
 	i = 0;
 
 	dest[i] = dest[i] + src[i];
-	while (i++)
+	while (dest[i])
 	{
+		i++;
 		_putchar(*(dest + i));
 	}
 	return (dest);
