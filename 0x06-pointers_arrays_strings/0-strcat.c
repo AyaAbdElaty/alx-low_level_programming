@@ -5,10 +5,11 @@
  * @dest: is the function parameter
  * @src: is the function parameter
  * description: function to concatinate
+ * Return: is returning dest
  */
 char *_strcat(char *dest, char *src)
 {
-	int i = -1;
+	int i;
 
 	dest[i] = dest[i] + src[i];
 	for (i = 0; dest[i] != '0'; i++)
