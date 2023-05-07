@@ -3,5 +3,5 @@
 
 #include <stdio.h>
 int _putchar(int c);
-int putlen(void);
+int putlen();
 #endif

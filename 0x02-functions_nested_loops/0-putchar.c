@@ -5,7 +5,7 @@
  * Return: Always 0 (success)
  */
 
-int putlen(void)
+int putlen()
 {
 	char str [] = "_putchar";
 	int ch;
@@ -13,4 +13,5 @@ int putlen(void)
 	for (ch = 0; ch < 8; ch++)
 		_putchar(str[ch]);
 	_putchar('\n');
+	return(ch++);
 }
