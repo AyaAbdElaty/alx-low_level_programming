@@ -4,14 +4,17 @@
  */
 void _print_rev_recursion(char *s)
 {
-	int n, i;
-	n = 0;
-
-	while (s[n])
+	int i = 0;
+	while(s[i])
 	{
-		n--;
+		i--;
 	}
-	i = n--;
-	_putchar(s[i++]);
+
+	if (i == 0)
+	{
+		_putchar('\n');
+		return;
+	}
+	_putchar(s[i--]);
 	_print_rev_recursion((s - 1));
 }
