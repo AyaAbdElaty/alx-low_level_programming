@@ -1,20 +1,16 @@
 #include "main.h"
 /**
- *
+ * _print_rev_recursion - is the name of the function
+ * @s: is the parameter of the function
  */
 void _print_rev_recursion(char *s)
 {
-	int i = 0;
-	while(s[i])
-	{
-		i--;
-	}
 
-	if (i == 0)
+	if (*s > '\0')
 	{
 		_putchar('\n');
 		return;
 	}
-	_putchar(s[i--]);
+	_putchar(*s);
 	_print_rev_recursion((s - 1));
 }
