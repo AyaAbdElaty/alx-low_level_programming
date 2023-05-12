@@ -2,6 +2,7 @@
 /**
  * _sqrt_recursion - is the name of the function
  * @n: is the parameter of the function
+ * @i: is the parametet of the function
  * Return: the result of square root
  */
 int _sqrt_recursion(int n, int i)
