@@ -1,7 +1,7 @@
 #ifndef MYHEADER_H
 #define MYHEADER_H
 
-int _putchar(char c);
+int _putchar(int c);
 int _islower(int c);
 int _isalpha(int c);
 int _abs(int n);
