@@ -1,6 +1,6 @@
 #include <stdio.h>
 /*
- * main - is the main function
+ * main -Entry point
  * @argc: is the parameter for count
  * @argv: is the parameter for array
  * Return: 0
