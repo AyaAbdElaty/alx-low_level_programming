@@ -2,12 +2,10 @@
 /**
  * jack_bauer - is the name of the function
  * Return: void
- *
  */
 void jack_bauer(void)
 {
-	int a;
-	int b, c, d;
+	int a, b, c, d;
 
 	for (d = 0; d <= 2; d++)
 	{
