@@ -9,8 +9,14 @@ void jack_bauer(void)
 
 	for (d = 0; d <= 2; d++)
 	{
-		for (c = 0; c <= 9; c++)
+		if (d == 2)
 		{
+			for (c = 0; c <= 3; c++)
+		}
+		else
+		{
+			for (c = 0; c <= 9; c++)
+		}
 			for (b = 0; b <= 5; b++)
 			{
 				for (a = 0; a <= 9; a++)
