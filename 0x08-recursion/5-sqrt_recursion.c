@@ -5,8 +5,9 @@
  * @i: is the parametet of the function
  * Return: the result of square root
  */
-int _sqrt_recursion(int n, int i)
+int _sqrt_recursion(int n)
 {
+	int i = 1;
 	if (i*i > n)
 		return (-1);
 	if (i * i == n)
