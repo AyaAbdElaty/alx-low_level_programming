@@ -1,12 +1,19 @@
 #include "main.h"
+/**
+ * _sqrt_recursion - is the name of the function
+ * @n: is the parameter of the function
+ * Return: the result of square root
+ */
 
 int _sqrt_recursion(int n)
 {
-	return (square(n, 1));
+	if (n < 0)
+		return (-1);
+	return (square(n, 0));
 }
 
 /**
- * _sqrt_recursion - is the name of the function
+ * square - is the name of the function
  * @n: is the parameter of the function
  * @i: is the parametet of the function
  * Return: the result of square root
