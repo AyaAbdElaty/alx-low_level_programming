@@ -11,7 +11,7 @@ int main(int argc, char *argv[])
 	if(argc == 2)
 	{
 		int i, leastcents = 0, mon = atoi(argv[1]);
-		int cen[] = {25, 10, 5, 2, 1}
+		int cen[] = {25, 10, 5, 2, 1};
 
 		for (i = 0; i < 5; i++)
 		{
