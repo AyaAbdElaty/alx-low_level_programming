@@ -9,15 +9,11 @@
 int main(int argc, char **argv)
 {
 	int mul;
-	int i = 0;
-	
-	if (i == 3)
+
+	if (argc == 3)
 	{
-		for (i = 1; i < argc; i++)
-		{
-			mul = atoi(argv[1]) * atoi(argv[2]);
-			printf("%d\n", mul);
-		}
+		mul = atoi(argv[1]) * atoi(argv[2]);
+		printf("%d\n", mul);
 	}
 	else
 	{
