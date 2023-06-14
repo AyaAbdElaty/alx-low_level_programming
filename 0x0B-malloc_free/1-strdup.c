@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stddef.h>
+#include <stdlib.h>
 /*
  * *_strdup - is the name of the function
  * @str: is the arrgument
