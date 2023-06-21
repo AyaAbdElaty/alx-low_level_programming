@@ -1,9 +1,11 @@
-#include "main.h"
-#include <stdlib.h>
+#ifndef Dog_H
+#define Dog_H
 
 /**
- * struct - Entry point
- * dog: struct name
+ * struct dog - a dog struct
+ * @name: dog's name
+ * @age: dog's age
+ * @owner: dog's owner
  *
  */
 struct dog
@@ -11,4 +13,6 @@ struct dog
 	char* name;
 	float age;
 	char* owner;
-}
+};
+
+#endif
