@@ -1,4 +1,6 @@
-#include "3-calc"
+#include <stdio.h>
+#include <stdlib.h>
+#include "3-calc.h"
 /**
  * main - entry point
  * @argc: the number of args
@@ -20,7 +22,7 @@ int main(int argc, char **argv)
 		printf("Error\n"), exit(99);
 	if (!b && (argv[2][0] == '/' || argv[2][0] == '%'))
 		printf("Error\n"), exit(100);
-	
+
 	printf("%d\n", op_func(a, b));
 	return (0);
 }
