@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_rev_recursion - is the name of the function
+ * _print_rev_recursion - is the name of the func
  * @s: is the parameter of the function
  */
 void _print_rev_recursion(char *s)
