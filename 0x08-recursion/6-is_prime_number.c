@@ -1,27 +1,42 @@
 #include "main.h"
-int the_prime(int n, int i);
+
 /**
- * is_prime_number - the defination of the function
- * @n: is the parameter of the function
- * Return: 1 if n is prime number
+ * is_divisible - Entry point
+ * Description: Prime number
+ * @n: Integer
+ * @div: Integer
+ * Return: 1 if prime number 0 otherwise
  */
+
+int is_divisible(int n, int div)
+{
+	if (div == 1 || div == n)
+	{
+		return (0);
+	}
+	if (n % div == 0)
+	{
+		return (1);
+	}
+	return (is_divisible(n, div - 1));
+}
+
+/**
+ * is_prime_number - Entry point
+ * Description: Prime number
+ * @n: Integer
+ * Return: 1 if prime number 0 otherwise
+ */
+
 int is_prime_number(int n)
 {
 	if (n <= 1)
+	{
 		return (0);
-	return (the_prime(n, n - 1));
-}
-/**
- * the_prime - the defination of the function
- * @n: is the parameter of the function
- * @i: is the parameter of the function
- * Return: return the value of the function
- */
-int the_prime(int n, int i)
-{
-	if (i == 1)
+	}
+	if (n ==  2)
+	{
 		return (1);
-	if (n % i == 0 && i > 0)
-		return (0);
-	return (the_prime(n, i - 1));
+	}
+	return (!is_divisible(n, n - 1));
 }
