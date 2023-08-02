@@ -2,7 +2,7 @@
 
 /**
  * is_divisible - Entry point
- * Description: Prime number
+ * Description: prime number
  * @n: Integer
  * @div: Integer
  * Return: 1 if prime number 0 otherwise
@@ -23,7 +23,7 @@ int is_divisible(int n, int div)
 
 /**
  * is_prime_number - Entry point
- * Description: Prime number
+ * Description: the prime number
  * @n: Integer
  * Return: 1 if prime number 0 otherwise
  */
