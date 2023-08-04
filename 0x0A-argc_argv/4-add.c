@@ -1,22 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Entry point
- * @argc: is the parameter
- * @argv: is thte parameter
- * Return: 1
+ * main - adds positive numbers
+ * @argc: argument count
+ * @argv: argument vector for values
+ * Return: always 0
  */
-int main(int argc, char **argv)
-{
-	int sum = 0;
-	int *i;
 
-	while (--argc)
+int main(int argc, char *argv[])
+{
+	int i, j, sum;
+
+	sum = 0;
+
+	for (i = 1; i < argc ; i++)
 	{
-		for (c = argv[argc]; *c; c++)
-			if (*c < '0' || *c > '9')
-				return (printf("Error\n"), 1);
-		sum += atoi(argv[argc]);
+		for (j = 0; argv[i][j] != '\0' ; j++)
+		{
+			if (argv[i][j] < 47 || argv[i][j] > 57)
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+		sum = sum + atoi(argv[i]);
 	}
 	printf("%d\n", sum);
 	return (0);
