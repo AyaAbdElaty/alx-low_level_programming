@@ -1,23 +1,27 @@
+#include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-/**
- * main - entry point
- * @argc: is the parameter of the function
- * @argv: is the parameter of the function
- * Return: 1
- */
-int main(int argc, char **argv)
-{
-	int mul;
 
-	if (argc == 3)
-	{
-		mul = atoi(argv[1]) * atoi(argv[2]);
-		printf("%d\n", mul);
-	}
-	else
+/**
+ * main - Entry point
+ * Description: Multiplies two numbers
+ * @argc: No of command line arguments
+ * @argv: Array name
+ * Return: 1 if needs more arguements, 0 otherwise
+ */
+
+int main(int argc, char *argv[])
+{
+	int n1, n2, ans;
+
+	if (argc != 3)
 	{
 		printf("Error\n");
 		return (1);
 	}
+	n1 = atoi(argv[1]);
+	n2 = atoi(argv[2]);
+	ans = n1 * n2;
+	printf("%d\n", ans);
+	return (0);
 }
